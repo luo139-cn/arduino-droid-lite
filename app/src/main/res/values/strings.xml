@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ArduinoDroid Lite</string>
+    <string name="new_sketch">新建</string>
+    <string name="open_sketch">打开</string>
+    <string name="compile">编译</string>
+    <string name="upload">烧录</string>
+    <string name="serial_monitor">串口监视器</string>
+    <string name="settings">设置</string>
+    <string name="board">开发板</string>
+    <string name="connect">连接</string>
+    <string name="save">保存</string>
+    <string name="donate">捐赠支持</string>
+    <string name="donate_title">感谢支持</string>
+    <string name="donate_hint">支付宝扫码，支持作者继续开发</string>
+    <string name="donate_qrcode_desc">支付宝收款码</string>
+    <string name="save_local">保存图片到本地</string>
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="#FF1E1E1E">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/donate_title"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFFFF"
+        android:layout_marginBottom="16dp" />
+
+    <ImageView
+        android:id="@+id/ivDonate"
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:src="@drawable/donate_qrcode"
+        android:scaleType="fitCenter"
+        android:contentDescription="@string/donate_qrcode_desc"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/donate_hint"
+        android:textSize="14sp"
+        android:textColor="#FFCCCCCC"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/save_local" />
+
+</LinearLayout>

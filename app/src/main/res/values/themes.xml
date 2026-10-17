@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.ArduinoDroid" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">#00979D</item>
+        <item name="colorPrimaryVariant">#00666B</item>
+        <item name="colorSecondary">#E4717A</item>
+        <item name="android:statusBarColor">#00666B</item>
+    </style>
+</resources>
